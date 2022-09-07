@@ -49,13 +49,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "omGSd5951iLkMihEGCPgqrmE0ye8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "KUW_NjeD2fuejCEzQgFnnbQzj6136FNLBl0fuZC9SFk",
+      useTemplateId: "DAtzwas97TQiYW6vasKoAn4W92JUcOTRa92nNmVna0o",
       // 所在省份
       province: "河北",
       // 所在城市
       city: "张家口",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://stars.chromeexperiments.com/"
     }, 
      ],
 
@@ -70,7 +70,7 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "omGSd5951iLkMihEGCPgqrmE0ye8",
     }, 
@@ -99,7 +99,6 @@ export const config = {
     {"type": "生日", "name": "🦌宝宝", "year": "1995", "date": "07-21"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "08-17"},
     {"type": "生日", "name": "我", "year": "1996", "date": "07-09"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -117,9 +116,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    {"keyword": "love_day", date: "2020-08-17"},
     // 退伍日, 不用可以删掉
     {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
@@ -149,7 +146,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "小说"
 
 
 }
